@@ -16,6 +16,8 @@ func init() {
 	rootCmd.AddCommand(timeCmd)
 	//sql转结构体
 	rootCmd.AddCommand(sql2Cmd)
+	//curl请求
+	rootCmd.AddCommand(httpCmd)
 }
 
 
